@@ -1,0 +1,23 @@
+{
+    "name": "ypay/php-sdk",
+    "description": "YPay Payment GateWay",
+    "type": "library",
+    "authors": [
+    {
+        "name": "YOOLTECH",
+        "email": "info@yooltech.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload":
+    {
+        "psr-0":
+        {
+            "YPay": "src/"
+        }
+    }
+}
